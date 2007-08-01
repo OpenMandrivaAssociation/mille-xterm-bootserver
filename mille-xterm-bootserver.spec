@@ -3,7 +3,7 @@
 Summary:	Mille-xterm boot server component
 Name:		mille-xterm-bootserver
 Version:	1.0
-Release:	%mkrel 0.%{svn}.3
+Release:	%mkrel 0.%{svn}.4
 License:	GPL
 Group:		System/Servers
 URL:		http://mille-xterm.revolutionlinux.com/mille-xterm
@@ -14,7 +14,6 @@ Requires:	mille-xterm-busybox
 Requires:	nfs-server
 Requires:	pci_scan
 Requires:	mille-xterm-loadbalancer-lbserver
-Requires:	console-tools
 Requires:	rsync
 Requires:	xinetd
 BuildRequires:	python-devel >= 2.4
