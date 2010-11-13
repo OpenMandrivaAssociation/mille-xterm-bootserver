@@ -3,7 +3,7 @@
 Summary:	Mille-xterm boot server component
 Name:		mille-xterm-bootserver
 Version:	1.0
-Release:	%mkrel 0.%{svn}.6
+Release:	%mkrel 0.%{svn}.7
 License:	GPL
 Group:		System/Servers
 URL:		http://mille-xterm.revolutionlinux.com/mille-xterm
