@@ -59,10 +59,10 @@ rm -rf %{buildroot}
 echo -e "\nInstallation complete !\nNow you can execute : mille-xterm-bootserver autoconfigure"
 echo -e "This command will help you to configure this bootserver\n"
 
-%files -f INSTALLED_FILES
+%files
 %defattr(-,root,root)
 %doc Changelog README AUTHORS COPYING INSTALL
 %config(noreplace) %{_sysconfdir}/mille-xterm/bootserver.ini
-%{_bindir}/install-kernel
-
-
+%{_bindir}/*
+%{py_puresitedir}/*
+%{_localstatedir}/lib/mille-xterm-bootserver
