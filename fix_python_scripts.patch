@@ -1,0 +1,11 @@
+--- src/initrd.py	2006-08-08 21:32:31.000000000 +0200
++++ src/initrd.py.oden	2007-02-25 14:15:30.000000000 +0100
+@@ -52,7 +52,7 @@
+ 		print "Error : ", busyboxpath, " is not a file "
+ 		return util_list
+ 	stdout, stdin, stderr = popen2.popen3(string.join([busyboxpath,"--help"]))
+-	lines = stderr.readlines()
++	lines = stdout.readlines()
+ 	cut = 0
+ 	for num, line in enumerate(lines):
+ 		if line == "Currently defined functions:\n":
