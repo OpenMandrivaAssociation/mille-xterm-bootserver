@@ -66,3 +66,49 @@ echo -e "This command will help you to configure this bootserver\n"
 %{_bindir}/*
 %{py_puresitedir}/*
 %{_localstatedir}/lib/mille-xterm-bootserver
+
+
+%changelog
+* Fri Nov 19 2010 Funda Wang <fwang@mandriva.org> 1.0-0.2141.7mdv2011.0
++ Revision: 598844
+- update filelist
+
+  + Bogdano Arendartchuk <bogdano@mandriva.com>
+    - rebuild for python 2.7
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 1.0-0.2141.6mdv2010.0
++ Revision: 439805
+- rebuild
+
+* Tue Jan 06 2009 Funda Wang <fwang@mandriva.org> 1.0-0.2141.5mdv2009.1
++ Revision: 325769
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.0-0.2141.4mdv2008.1
++ Revision: 136579
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Wed Aug 01 2007 Olivier Blin <oblin@mandriva.com> 1.0-0.2141.4mdv2008.0
++ Revision: 57698
+- drop console-tools require (it's in basesystem)
+
+
+* Sun Feb 25 2007 Oden Eriksson <oeriksson@mandriva.com> 1.0-0.2141.3mdv2007.0
++ Revision: 125554
+- fix api compat (Mikael Andersson)
+
+* Sun Feb 25 2007 Oden Eriksson <oeriksson@mandriva.com> 1.0-0.2141.2mdv2007.1
++ Revision: 125525
+- fix hardcoded python version
+
+* Thu Feb 08 2007 Oden Eriksson <oeriksson@mandriva.com> 1.0-0.2141.1mdv2007.1
++ Revision: 117965
+- fix python libdir
+- Import mille-xterm-bootserver
+
+* Fri Sep 29 2006 Oden Eriksson <oeriksson@mandriva.com> 1.0-0.2141.1mdk
+- initial Mandriva package (mille-xterm import)
+
