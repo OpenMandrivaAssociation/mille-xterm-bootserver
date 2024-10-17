@@ -6,7 +6,7 @@ Version:	1.0
 Release:	%mkrel 0.%{svn}.7
 License:	GPL
 Group:		System/Servers
-URL:		http://mille-xterm.revolutionlinux.com/mille-xterm
+URL:		https://mille-xterm.revolutionlinux.com/mille-xterm
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		fix_python_scripts.patch
 Requires:	python >= 2.4
